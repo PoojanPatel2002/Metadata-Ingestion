@@ -1,5 +1,24 @@
 [
   {
+    "auditHeader": null,
+    "proposedSnapshot": {
+        "com.linkedin.pegasus2avro.metadata.snapshot.DataPlatformSnapshot": {
+        "urn": "urn:li:dataPlatform:MyCustomDataPlatform",
+        "aspects": [
+            {
+            "com.linkedin.pegasus2avro.dataplatform.DataPlatformInfo": {
+                "datasetNameDelimiter": "/",
+                "name": "My Custom Data Platform",
+                "type": "OTHERS",
+                "logoUrl": "https://<your-logo-url>"
+            }
+            }
+        ]
+        }
+    },
+    "proposedDelta": null
+  },
+  {
       "proposedSnapshot": {
           "com.linkedin.pegasus2avro.metadata.snapshot.DatasetSnapshot": {
               "urn": "urn:li:dataset:(urn:li:dataPlatform:MyCustomDataPlatform)",
