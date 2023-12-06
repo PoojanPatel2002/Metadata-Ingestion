@@ -9,6 +9,11 @@
                     "tableSchema": ""
                 }
             },
+            "bucket":  {
+                "com.linkedin.pegasus2avro.usage.UsageAggregation": {
+                    "bucket": "bucket_value"
+                }
+            },
             "fields": [
                 {
                     "fieldPath": "app__name__en-US",
@@ -47,11 +52,6 @@
                     "isPartOfKey": false
                 }
             ]
-        }
-    },
-    {
-        "com.linkedin.pegasus2avro.usage.UsageAggregation": {
-            "bucket": "bucket_value"
         }
     }
 ]
