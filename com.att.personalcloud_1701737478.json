@@ -9,10 +9,8 @@
                     "tableSchema": ""
                 }
             },
-            "bucket":  {
-                "com.linkedin.pegasus2avro.usage.UsageAggregation": {
-                    "bucket": "bucket_value"
-                }
+            "com.linkedin.pegasus2avro.usage.UsageAggregation": {
+                "bucket": "bucket_value"
             },
             "fields": [
                 {
