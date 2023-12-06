@@ -1,81 +1,52 @@
 [
-  {
-    "auditHeader": null,
-    "proposedSnapshot": {
-        "com.linkedin.pegasus2avro.metadata.snapshot.DataPlatformSnapshot": {
-        "urn": "urn:li:dataPlatform:MyCustomDataPlatform",
-        "aspects": [
-            {
-            "com.linkedin.pegasus2avro.dataplatform.DataPlatformInfo": {
-                "datasetNameDelimiter": "/",
-                "name": "My Custom Data Platform",
-                "type": "OTHERS",
-                "logoUrl": "https://<your-logo-url>"
-            }
-            }
-        ]
+    {
+        "com.linkedin.pegasus2avro.schema.SchemaMetadata": {
+            "schemaName": "Google-Play-AT&T-Personal-Cloud",
+            "version": 0,
+            "hash": "",
+            "platformSchema": {
+                "com.linkedin.pegasus2avro.schema.MySqlDDL": {
+                    "tableSchema": ""
+                }
+            },
+            "fields": [
+                {
+                    "fieldPath": "app__name__en-US",
+                    "nullable": true,
+                    "type": {
+                        "type": {
+                            "com.linkedin.pegasus2avro.schema.StringType": {}
+                        }
+                    },
+                    "nativeDataType": "String()",
+                    "recursive": false,
+                    "isPartOfKey": false
+                },
+                {
+                    "fieldPath": "app__developer__name",
+                    "nullable": true,
+                    "type": {
+                        "type": {
+                            "com.linkedin.pegasus2avro.schema.StringType": {}
+                        }
+                    },
+                    "nativeDataType": "String()",
+                    "recursive": false,
+                    "isPartOfKey": false
+                },
+                {
+                    "fieldPath": "app__version_history__23.3.71__release_date",
+                    "nullable": true,
+                    "type": {
+                        "type": {
+                            "com.linkedin.pegasus2avro.schema.NumberType": {}
+                        }
+                    },
+                    "nativeDataType": "Integer()",
+                    "recursive": false,
+                    "isPartOfKey": false
+                }
+            ]
         }
-    },
-    "proposedDelta": null
-  },
-  {
-      "proposedSnapshot": {
-          "com.linkedin.pegasus2avro.metadata.snapshot.DatasetSnapshot": {
-              "urn": "urn:li:dataset:(urn:li:dataPlatform:MyCustomDataPlatform)",
-              "aspects": [
-                  {
-                      "com.linkedin.pegasus2avro.schema.SchemaMetadata": {
-                          "schemaName": "Google-Play-AT&T-Personal-Cloud",
-                          "platform": "urn:li:dataPlatform:MyCustomDataPlatform",
-                          "version": 0,
-                          "hash": "",
-                          "platformSchema": {
-                              "com.linkedin.pegasus2avro.schema.MySqlDDL": {
-                                  "tableSchema": ""
-                              }
-                          },
-                          "fields": [
-                              {
-                                  "fieldPath": "app__name__en-US",
-                                  "nullable": true,
-                                  "type": {
-                                      "type": {
-                                          "com.linkedin.pegasus2avro.schema.StringType": {}
-                                      }
-                                  },
-                                  "nativeDataType": "String()",
-                                  "recursive": false,
-                                  "isPartOfKey": false
-                              },
-                              {
-                                  "fieldPath": "app__developer__name",
-                                  "nullable": true,
-                                  "type": {
-                                      "type": {
-                                          "com.linkedin.pegasus2avro.schema.StringType": {}
-                                      }
-                                  },
-                                  "nativeDataType": "String()",
-                                  "recursive": false,
-                                  "isPartOfKey": false
-                              },
-                              {
-                                  "fieldPath": "app__version_history__23.3.71__release_date",
-                                  "nullable": true,
-                                  "type": {
-                                      "type": {
-                                          "com.linkedin.pegasus2avro.schema.NumberType": {}
-                                      }
-                                  },
-                                  "nativeDataType": "Integer()",
-                                  "recursive": false,
-                                  "isPartOfKey": false
-                              }
-                          ]
-                      }
-                  }
-              ]
-          }
-      }
-  }
+    }
 ]
