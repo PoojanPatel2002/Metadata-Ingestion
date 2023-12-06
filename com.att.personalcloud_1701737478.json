@@ -2,12 +2,12 @@
   {
       "proposedSnapshot": {
           "com.linkedin.pegasus2avro.metadata.snapshot.DatasetSnapshot": {
-              "urn": "urn:li:dataset:(urn:li:dataPlatform:bigquery)",
+              "urn": "urn:li:dataset:(urn:li:dataPlatform:MyCustomDataPlatform)",
               "aspects": [
                   {
                       "com.linkedin.pegasus2avro.schema.SchemaMetadata": {
                           "schemaName": "Google-Play-AT&T-Personal-Cloud",
-                          "platform": "urn:li:dataPlatform:bigquery",
+                          "platform": "urn:li:dataPlatform:MyCustomDataPlatform",
                           "version": 0,
                           "hash": "",
                           "platformSchema": {
