@@ -9,7 +9,7 @@
                             "schemaName": "Google-Play-AT&T-Personal-Cloud",
                             "platform": "urn:li:dataPlatform:MyCustomDataPlatform",
                             "version": 0,
-                            "hash": "",
+                            "hash": "0",
                             "platformSchema": {
                                 "com.linkedin.pegasus2avro.schema.MySqlDDL": {
                                     "tableSchema": ""
