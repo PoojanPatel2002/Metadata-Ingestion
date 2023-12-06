@@ -1,16 +1,14 @@
 [
     {
-        "com.linkedin.schema.SchemaMetadata": {
+        "com.linkedin.pegasus2avro.schema.SchemaMetadata": {
             "schemaName": "Google-Play-AT&T-Personal-Cloud",
+            "platform": "urn:li:dataPlatform:MyCustomDataPlatform",
             "version": 0,
             "hash": "",
             "platformSchema": {
-                "com.linkedin.schema.MySqlDDL": {
+                "com.linkedin.pegasus2avro.schema.MySqlDDL": {
                     "tableSchema": ""
                 }
-            },
-            "com.linkedin.pegasus2avro.usage.UsageAggregation": {
-                "bucket": "bucket_value"
             },
             "fields": [
                 {
@@ -18,7 +16,7 @@
                     "nullable": true,
                     "type": {
                         "type": {
-                            "com.linkedin.schema.StringType": {}
+                            "com.linkedin.pegasus2avro.schema.StringType": {}
                         }
                     },
                     "nativeDataType": "String()",
@@ -30,7 +28,7 @@
                     "nullable": true,
                     "type": {
                         "type": {
-                            "com.linkedin.schema.StringType": {}
+                            "com.linkedin.pegasus2avro.schema.StringType": {}
                         }
                     },
                     "nativeDataType": "String()",
@@ -42,7 +40,7 @@
                     "nullable": true,
                     "type": {
                         "type": {
-                            "com.linkedin.schema.NumberType": {}
+                            "com.linkedin.pegasus2avro.schema.NumberType": {}
                         }
                     },
                     "nativeDataType": "Integer()",
