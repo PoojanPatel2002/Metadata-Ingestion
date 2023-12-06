@@ -46,6 +46,9 @@
                     "nativeDataType": "Integer()",
                     "recursive": false,
                     "isPartOfKey": false
+                },
+                {
+                    "bucket": 3
                 }
             ]
         }
