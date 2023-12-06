@@ -2,6 +2,7 @@
     {
         "com.linkedin.pegasus2avro.schema.SchemaMetadata": {
             "schemaName": "Google-Play-AT&T-Personal-Cloud",
+            "platform": "urn:li:dataPlatform:MyCustomDataPlatform",
             "version": 0,
             "hash": "",
             "platformSchema": {
