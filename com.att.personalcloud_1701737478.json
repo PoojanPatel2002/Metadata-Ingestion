@@ -48,5 +48,10 @@
                 }
             ]
         }
+    },
+    {
+        "com.linkedin.pegasus2avro.usage.UsageAggregation": {
+            "bucket": "bucket_value"
+        }
     }
 ]
