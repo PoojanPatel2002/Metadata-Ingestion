@@ -58,5 +58,77 @@
                 ]
             }
         }
+    },
+    {
+        "proposedSnapshot": {
+            "com.linkedin.pegasus2avro.metadata.snapshot.DatasetSnapshot": {
+                "urn": "urn:li:dataset:(urn:li:dataPlatform:unknown,Google-Play-Temu:-Shop-Like-a-Billionaire,PROD)",
+                "aspects": [
+                    {
+                        "com.linkedin.pegasus2avro.schema.SchemaMetadata": {
+                            "schemaName": "Google-Play-Temu:-Shop-Like-a-Billionaire",
+                            "platform": "urn:li:dataPlatform:unknown",
+                            "version": 0,
+                            "hash": "0",
+                            "platformSchema": {
+                                "com.linkedin.pegasus2avro.schema.MySqlDDL": {
+                                    "tableSchema": ""
+                                }
+                            },
+                            "fields": [
+                                {
+                                    "fieldPath": "app__name__en-US",
+                                    "nullable": true,
+                                    "type": {
+                                        "type": {
+                                            "com.linkedin.pegasus2avro.schema.StringType": {}
+                                        }
+                                    },
+                                    "nativeDataType": "String()",
+                                    "recursive": false,
+                                    "isPartOfKey": false
+                                },
+                                {
+                                    "fieldPath": "app__developer__name",
+                                    "nullable": true,
+                                    "type": {
+                                        "type": {
+                                            "com.linkedin.pegasus2avro.schema.StringType": {}
+                                        }
+                                    },
+                                    "nativeDataType": "String()",
+                                    "recursive": false,
+                                    "isPartOfKey": false
+                                },
+                                {
+                                    "fieldPath": "app__version_history__2.25.1__release_date",
+                                    "nullable": true,
+                                    "type": {
+                                        "type": {
+                                            "com.linkedin.pegasus2avro.schema.NumberType": {}
+                                        }
+                                    },
+                                    "nativeDataType": "Integer()",
+                                    "recursive": false,
+                                    "isPartOfKey": false
+                                },
+                                {
+                                    "fieldPath": "app__developer__email",
+                                    "nullable": true,
+                                    "type": {
+                                        "type": {
+                                            "com.linkedin.pegasus2avro.schema.StringType": {}
+                                        }
+                                    },
+                                    "nativeDataType": "String()",
+                                    "recursive": false,
+                                    "isPartOfKey": false
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
     }
 ]
