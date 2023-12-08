@@ -1,0 +1,151 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+      "scrape__date": {
+        "type": "integer"
+      },
+      "scrape__store": {
+        "type": "string"
+      },
+      "scrape__version": {
+        "type": "string"
+      },
+      "app__developer__id": {
+        "type": "string"
+      },
+      "app__developer__name": {
+        "type": "string"
+      },
+      "app__developer__name_translated": {
+        "type": "null"
+      },
+      "app__developer__address": {
+        "type": "string"
+      },
+      "app__developer__email": {
+        "type": "string"
+      },
+      "app__developer__website": {
+        "type": "string"
+      },
+      "app__publisher": {
+        "type": "null"
+      },
+      "app__version_history__None__content": {
+        "type": "null"
+      },
+      "app__version_history__None__hashes": {
+        "type": "null"
+      },
+      "app__version_history__None__release_date": {
+        "type": "integer"
+      },
+      "app__version_history__None__size": {
+        "type": "null"
+      },
+      "app__version_history__None__supported_devices": {
+        "type": "null"
+      },
+      "app__name__en-US": {
+        "type": "string"
+      },
+      "app__name_translated": {
+        "type": "null"
+      },
+      "app__summary__en-US": {
+        "type": "string"
+      },
+      "app__summary_translated": {
+        "type": "null"
+      },
+      "app__description__en-US": {
+        "type": "string"
+      },
+      "app__description_translated": {
+        "type": "null"
+      },
+      "app__genres": {
+        "type": "array",
+        "items": [
+          {
+            "type": "string"
+          }
+        ]
+      },
+      "app__url": {
+        "type": "string"
+      },
+      "app__id": {
+        "type": "string"
+      },
+      "app__package_id": {
+        "type": "string"
+      },
+      "app__cost": {
+        "type": "number"
+      },
+      "app__currency": {
+        "type": "string"
+      },
+      "app__icon_url": {
+        "type": "string"
+      },
+      "app__install_count": {
+        "type": "integer"
+      },
+      "app__review_count": {
+        "type": "integer"
+      },
+      "app__content_age_rating": {
+        "type": "string"
+      },
+      "app__review_score": {
+        "type": "number"
+      },
+      "app__release_date": {
+        "type": "integer"
+      },
+      "app__languages": {
+        "type": "null"
+      }
+    },
+    "required": [
+      "scrape__date",
+      "scrape__store",
+      "scrape__version",
+      "app__developer__id",
+      "app__developer__name",
+      "app__developer__name_translated",
+      "app__developer__address",
+      "app__developer__email",
+      "app__developer__website",
+      "app__publisher",
+      "app__version_history__None__content",
+      "app__version_history__None__hashes",
+      "app__version_history__None__release_date",
+      "app__version_history__None__size",
+      "app__version_history__None__supported_devices",
+      "app__name__en-US",
+      "app__name_translated",
+      "app__summary__en-US",
+      "app__summary_translated",
+      "app__description__en-US",
+      "app__description_translated",
+      "app__genres",
+      "app__url",
+      "app__id",
+      "app__package_id",
+      "app__cost",
+      "app__currency",
+      "app__icon_url",
+      "app__install_count",
+      "app__review_count",
+      "app__content_age_rating",
+      "app__review_score",
+      "app__release_date",
+      "app__languages"
+    ]
+  }
+  
+  
