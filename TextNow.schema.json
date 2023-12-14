@@ -1,0 +1,150 @@
+{
+    "$schema": "http://json-schema.org/draft/2020-12/schema",
+    "$id": "http://mobile-app-data.com/TextNow.schema.json",
+    "title": "TextNow: Call + Text Unlimited",
+    "type": "object",
+    "properties": {
+      "scrape__date": {
+        "type": "integer",
+        "description": "Date that the scrape of the app was conducted as a UNIX timestamp."
+      },
+      "scrape__store": {
+        "type": "string",
+        "description": "Store name e.g. ios, fdroid, ..."
+      },
+      "scrape__version": {
+        "type": "string",
+        "description": "Version of the scraper that this data was collected with."
+      },
+      "app__developer__id": {
+        "type": "string",
+        "description": "App store specific identifier."
+      },
+      "app__developer__name": {
+        "type": "string",
+        "description": "Developer name"
+      },
+      "app__developer__name_translated": {
+        "type": "string",
+        "description": "English translation of the developer name, not currently implemented in all scrapers."
+      },
+      "app__developer__address": {
+        "type": "string",
+        "description": "Address of the developing entity."
+      },
+      "app__developer__email": {
+        "type": "string",
+        "description": "Email address of the developing entity."
+      },
+      "app__developer__website": {
+        "type": "string",
+        "description": "Website of the developing entity."
+      },
+      "app__publisher": {
+        "type": "string",
+        "description": "The name of the publishing entity."
+      },
+      "app__version_history____content": {
+        "type": "string",
+        "description": "Version notes"
+      },
+      "app__version_history____hashes": {
+        "type": "string",
+        "description": "App hashes"
+      },
+      "app__version_history____release_date": {
+        "type": "integer",
+        "description": "Release date of the version stored as a UNIX timestamp."
+      },
+      "app__version_history____size": {
+        "type": "integer",
+        "description": "Size of the version stored as bytes."
+      },
+      "app__name__": { 
+        "type": "string",
+        "description": "Name of the application"
+      },
+      "app__name_translated": {
+        "type": "string",
+        "description": "English translation of the app name, not currently implemented in all scrapers."
+      },
+      "app__summary__": {
+        "type": "string",
+        "description": "Summary of the application"
+      },
+      "app__summary_translated": {
+        "type": "string",
+        "description": "English translation of the app summary, not currently implemented in all scrapers."
+      },
+      "app__description__": {
+        "type": "string",
+        "description": "Description of the application"
+      },
+      "app__description_translated": {
+        "type": "string",
+        "description": "English translation of the app description, not currently implemented in all scrapers."
+      },
+      "app__url": {
+        "type": "string",
+        "description": "URL for the web store page for the app."
+      },
+      "app__id": {
+        "type": "string",
+        "description": "App store specific identifier."
+      },
+      "app__package_id": {
+        "type": "string",
+        "description": "Package id e.g. com.messenger"
+      },
+      "app__cost": {
+        "type": "number",
+        "description": "Cost of the application as a float."
+      },
+      "app__currency": {
+        "type": "string",
+        "description": "Currency in which the cost of the app is represented, defaults to USD if the app has cost 0.0"
+      },
+      "app__icon_url": {
+        "type": "string",
+        "description": "URL for the app icon."
+      },
+      "app__install_count": {
+        "type": "integer",
+        "description": "Number of times the app has been installed on devices."
+      },
+      "app__review_count": {
+        "type": "integer",
+        "description": "Number of times the application has received a review (both text and star ratings)."
+      },
+      "app__content_age_rating": {
+        "type": "string",
+        "description": "What age the app is rated for e.g. 13+"
+      },
+      "app__review_score": {
+        "type": "number",
+        "description": "Current review score."
+      },
+      "app__release_date": {
+        "type": "integer",
+        "description": "Original release date of the app as a UNIX timestamp."
+      }
+    },
+    "required": [
+      "scrape__date",
+      "scrape__store",
+      "scrape__version",
+      "app__publisher",
+      "app__name__",
+      "app__description__",
+      "app__genres",
+      "app__url",
+      "app__id",
+      "app__package_id",
+      "app__cost",
+      "app__currency",
+      "app__icon_url",
+      "app__release_date"
+    ]
+  }
+  
+  
