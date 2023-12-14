@@ -46,14 +46,6 @@
       "app__version_history____size": {
         "type": "integer"
       },
-      "app__version_history____supported_devices": {
-        "type": "array",
-        "items": [
-          {
-            "type": "string"
-          }
-        ]
-      },
       "app__name__": { 
         "type": "string"
       },
@@ -71,14 +63,6 @@
       },
       "app__description_translated": {
         "type": "string"
-      },
-      "app__genres": {
-        "type": "array",
-        "items": [
-          {
-            "type": "string"
-          }
-        ]
       },
       "app__url": {
         "type": "string"
@@ -112,14 +96,6 @@
       },
       "app__release_date": {
         "type": "integer"
-      },
-      "app__languages": {
-        "type": "array",
-        "items": [
-          {
-            "type": "string"
-          }
-        ]
       }
     },
     "required": [
