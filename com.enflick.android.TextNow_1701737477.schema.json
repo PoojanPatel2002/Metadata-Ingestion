@@ -1,7 +1,5 @@
 {
-    "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://mobile-app-data.com/com.enflick.android.TextNow_1701737477.schema.json",
-    "title": "TextNow: Call + Text Unlimited",
+    "$schema": "http://json-schema.org/draft-04/schema#",
     "type": "object",
     "properties": {
       "scrape__date": {
@@ -32,37 +30,48 @@
         "type": "string"
       },
       "app__publisher": {
-        "type": "string"
+        "type": "null"
       },
-      "app__version_history____content": {
-        "type": "string"
+      "app__version_history__None__content": {
+        "type": "null"
       },
-      "app__version_history____hashes": {
-        "type": "string"
+      "app__version_history__None__hashes": {
+        "type": "null"
       },
-      "app__version_history____release_date": {
+      "app__version_history__None__release_date": {
         "type": "integer"
       },
-      "app__version_history____size": {
-        "type": "integer"
+      "app__version_history__None__size": {
+        "type": "null"
       },
-      "app__name__": { 
+      "app__version_history__None__supported_devices": {
+        "type": "null"
+      },
+      "app__name__en-US": {
         "type": "string"
       },
       "app__name_translated": {
-        "type": "string"
+        "type": "null"
       },
-      "app__summary__": {
+      "app__summary__en-US": {
         "type": "string"
       },
       "app__summary_translated": {
-        "type": "string"
+        "type": "null"
       },
-      "app__description__": {
+      "app__description__en-US": {
         "type": "string"
       },
       "app__description_translated": {
-        "type": "string"
+        "type": "null"
+      },
+      "app__genres": {
+        "type": "array",
+        "items": [
+          {
+            "type": "string"
+          }
+        ]
       },
       "app__url": {
         "type": "string"
@@ -96,15 +105,33 @@
       },
       "app__release_date": {
         "type": "integer"
+      },
+      "app__languages": {
+        "type": "null"
       }
     },
     "required": [
       "scrape__date",
       "scrape__store",
       "scrape__version",
+      "app__developer__id",
+      "app__developer__name",
+      "app__developer__name_translated",
+      "app__developer__address",
+      "app__developer__email",
+      "app__developer__website",
       "app__publisher",
-      "app__name__",
-      "app__description__",
+      "app__version_history__None__content",
+      "app__version_history__None__hashes",
+      "app__version_history__None__release_date",
+      "app__version_history__None__size",
+      "app__version_history__None__supported_devices",
+      "app__name__en-US",
+      "app__name_translated",
+      "app__summary__en-US",
+      "app__summary_translated",
+      "app__description__en-US",
+      "app__description_translated",
       "app__genres",
       "app__url",
       "app__id",
@@ -112,7 +139,12 @@
       "app__cost",
       "app__currency",
       "app__icon_url",
-      "app__release_date"
+      "app__install_count",
+      "app__review_count",
+      "app__content_age_rating",
+      "app__review_score",
+      "app__release_date",
+      "app__languages"
     ]
   }
   
